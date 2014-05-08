@@ -32,12 +32,12 @@
             <version>2.1</version>
         </dependency>
   </dependencies>
-<!--distributionManagement>
+<distributionManagement>
     <repository>
         <id>internal.repo</id>
         <url>file://${build.custom.directory}</url>
     </repository>
-</distributionManagement-->
+</distributionManagement>
 <build><pluginManagement>   <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

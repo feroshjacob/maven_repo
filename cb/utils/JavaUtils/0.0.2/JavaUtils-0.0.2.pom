@@ -35,7 +35,9 @@
 <distributionManagement>
     <repository>
         <id>internal.repo</id>
-        <url>file://${build.custom.directory}</url>
+		<url>
+			file://Users/fjacob/projects/maven_repo
+		</url>
     </repository>
 </distributionManagement>
 <build><pluginManagement>   <plugins>
